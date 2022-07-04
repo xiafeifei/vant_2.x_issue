@@ -14,3 +14,8 @@
 <div>
     <img src='./03.png' />
 </div>
+
+## 代码示例
+<div>
+    <img src='./04.png' />
+</div>
