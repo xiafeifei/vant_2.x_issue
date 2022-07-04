@@ -10,12 +10,12 @@
       <van-field
         name="测试插槽"
         label="插槽测试"
+        :rules="[{ required: true, message: '该值不能为空' }]"
       >
         <template #input>
           <baseInput
             v-model="testInput"
-            placeholder="Enter your username"
-            :rules="[{ required: true, message: '该值不能为空' }]"/>
+            placeholder="Enter your username"/>
         </template>
       </van-field>
       <van-field
